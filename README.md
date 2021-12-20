@@ -25,7 +25,7 @@ The deliverables for this challenge were:
 - a written analysis of the findings of the audit.
 
 ## RESULTS
-See: ![Colorado Congressional Election Results](/resources/election_analysis.txt)
+See: [Colorado Congressional Election Results](/resources/election_analysis.txt)
 
 ### Total Results
 - Total Votes: 369,711
@@ -52,7 +52,7 @@ See: ![Colorado Congressional Election Results](/resources/election_analysis.txt
 
 ## ANALYSIS
 
-### Using Python to audit future elections
+## Using Python to audit future elections
 The analyst could tell Tom and Seth to relay to the election commission that there are at least 3 advantages to using this Python script to audit elections, as opposed to the common practice of using Excel:
 1. a Python script precludes the auditor from opening the election data spreadsheet in a spreadsheet editor, thus minimizing the likelihood of the auditor accidentally corrupting the underlying data;
 2. a Python script can be easily modified to audit multiple elections, simply by changing the directories of the election data spreadsheet and election analysis text files, that is to say, by altering only two lines of code; and
