@@ -184,7 +184,7 @@ with open(file_to_save, "w") as election_analysis:
     # Create f-string for largest county results
     largest_results = (
         f"Largest County: {largest_county}\n"
-        f"Largest County Vote Count: {largest_votes:,}\n"
+        f"Largest County Votes: {largest_votes:,}\n"
         f"Largest County Percentage: {largest_percentage:.1f}%\n")
     
     # Print f-string for largest county results
@@ -251,7 +251,7 @@ with open(file_to_save, "w") as election_analysis:
     # Create f-string for winning candidate
     winner_results = (
         f"Winning Candidate: {winning_candidate}\n"
-        f"Winning Candidate Vote Count: {winning_votes:,}\n"
+        f"Winning Candidate Votes: {winning_votes:,}\n"
         f"Winning Candidate Percentage: {winning_percentage:.1f}%\n")
     
     # Print f-string for winning candidate

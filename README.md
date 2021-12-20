@@ -1,32 +1,52 @@
-# election-analysis
+# TITLE
+Module 3 Challenge: Using Python to Audit Election Results
 
-## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+## AUTHOR
+Colin Brineman, M.A.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+## OVERVIEW
 
-## Resources
-- Data Source: election results.csv
-- Software: Python 3.10.1, Visual Studio Code, 1.63.0
+### Primary objective
+The primary objective of the Module 3 challenge was to help Tom, a Colorado Board of Elections employee, to write a Python script to audit results from a recent U.S. Congress election in Colorado, so that the election commission can certify the results of the election.
 
-## Summary
-The analysis of the election show that:
-- There were "x" votes cast in the election.
-- The candidates were:
-  - Candidate 1
-  - Candidate 2
-  - Candidate 3
-- THe candidate results were:
-  - Candidate 1 received "x%" of the vote and "y" number of votes,
-  - Candidate 2 received "x%" of the vote and "y" number of votes,
-  - Candidate 3 received "x%" of the vote and "y" number of votes,
-- The winner of the election was:
-  - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+### Secondary objective
+The secondary objective of this challenge was to help Tom to provide Seth, his manager,  with a Python script that can be easily repurposed to audit other elections in the state of Colorado, from the local level up to U.S. Senate races.
 
-## Challenge Overview
+### Skills employed
+The skills employed in the course of this challenge included but were not limited to:
+- cloning and updating a Github repository from the command line;
+- writing a Python script in Visual Studio Code; and
+- learning how to work with different data types, create decision and repetition statements, and read and write files in Python.
 
-## Challenge Summary
+### Deliverables
+The deliverables for this challenge were:
+- a Python script to audit election data,
+- a properly formatted election results text file, and
+- a written analysis of the findings of the audit.
+
+## RESULTS
+
+![Colorado Congressional Election Results](/resources/election_analysis.txt)
+
+### Total Results
+- Total Votes: 369,711
+
+### County Results
+- Jefferson: 10.5% (38,855)
+- Denver: 82.8% (306,055)
+- Arapahoe: 6.7% (24,801)
+
+### Largest County Results
+- Largest County: Denver
+- Largest County Votes: 306,055
+- Largest County Percentage: 82.8%
+
+### Candidate Results
+- Charles Casper Stockham: 23.0% (85,213)
+- Diana DeGette: 73.8% (272,892)
+- Raymon Anthony Doane: 3.1% (11,606)
+
+### Winning Candidate Results
+- Winning Candidate: Diana DeGette
+- Winning Candidate Votes: 272,892
+- Winning Candidate Percentage: 73.8%

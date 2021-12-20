@@ -19,7 +19,7 @@ Arapahoe: 6.7% (24,801)
 Largest County Results
 ---------------------------------------
 Largest County: Denver
-Largest County Vote Count: 306,055
+Largest County Votes: 306,055
 Largest County Percentage: 82.8%
 
 ---------------------------------------
@@ -33,5 +33,5 @@ Raymon Anthony Doane: 3.1% (11,606)
 Winning Candidate Results
 ---------------------------------------
 Winning Candidate: Diana DeGette
-Winning Candidate Vote Count: 272,892
+Winning Candidate Votes: 272,892
 Winning Candidate Percentage: 73.8%
