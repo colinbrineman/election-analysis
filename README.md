@@ -25,8 +25,7 @@ The deliverables for this challenge were:
 - a written analysis of the findings of the audit.
 
 ## RESULTS
-
-![Colorado Congressional Election Results](/resources/election_analysis.txt)
+See: ![Colorado Congressional Election Results](/resources/election_analysis.txt)
 
 ### Total Results
 - Total Votes: 369,711
@@ -50,3 +49,16 @@ The deliverables for this challenge were:
 - Winning Candidate: Diana DeGette
 - Winning Candidate Votes: 272,892
 - Winning Candidate Percentage: 73.8%
+
+## ANALYSIS
+
+### Using Python to audit future elections
+The analyst could tell Tom and Seth to relay to the election commission that there are at least 3 advantages to using this Python script to audit elections, as opposed to the common practice of using Excel:
+1. a Python script precludes the auditor from opening the election data spreadsheet in a spreadsheet editor, thus minimizing the likelihood of the auditor accidentally corrupting the underlying data;
+2. a Python script can be easily modified to audit multiple elections, simply by changing the directories of the election data spreadsheet and election analysis text files, that is to say, by altering only two lines of code; and
+3. a Python script reads over a data spreadsheet to retrieve unique values for fields such as counties and candidates, as well as the values for each row, and so the analyst does not even need to examine the election data spreadsheet, except to ensure it has not been corrupted and to identify column locations, thus minimizing the likelihood of the auditor accidentally ommitting values from the audit.
+
+## Proposals for modifying Python audit script
+The script could be modified in at least 2 ways:
+1. adding a section presenting the results for each candidate in each county,
+2. removing redundant values removing the largest county and winning candidate results sections, instead identifying the relevant county and candidate with an asterisk and a note.
