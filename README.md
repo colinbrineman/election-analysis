@@ -25,7 +25,7 @@ The deliverables for this challenge were:
 - a written analysis of the findings of the audit.
 
 ## RESULTS
-See: [Colorado Congressional Election Results](/resources/election_analysis.txt)
+See: [Colorado Congressional Election Results](/resources/election_analysis.txt).
 
 ### Total Results
 - Total Votes: 369,711
